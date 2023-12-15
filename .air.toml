@@ -1,0 +1,11 @@
+# run with:
+# F="XXX.py" air
+
+root = "."
+
+[build]
+full_bin = "$(which python) $F"
+cmd = "echo"
+delay = 200
+stop_on_error = true
+include_ext = ["py"]
